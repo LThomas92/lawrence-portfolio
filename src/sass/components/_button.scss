@@ -21,4 +21,14 @@
   -webkit-transform: scale(0.8);
   -ms-transform: scale(0.8);
   transform: scale(0.8);
+  @media screen and (max-width: 375px) {
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+  @media screen and (max-width: 460px) {
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
 }

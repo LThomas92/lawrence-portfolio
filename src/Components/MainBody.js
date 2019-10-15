@@ -23,9 +23,9 @@ const MainBody = () => {
               small. I am committed to providing the best service to fufill your
               website and creative needs.
             </p>
-            <button className="btn btn--inverse">
-              <Link to="/about">Read More</Link>
-            </button>
+            <Link to="/about">
+              <button className="btn btn--inverse">Read More</button>
+            </Link>
           </div>
         </div>
       </div>
