@@ -6,7 +6,11 @@ const Footer = () => {
   return (
     <footer className="footer">
       <ul className="footer-icons">
-        <a href="https://www.github.com/LThomas92">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.github.com/LThomas92"
+        >
           <li>
             <FontAwesomeIcon
               className="footer-sm-icons"
@@ -15,7 +19,11 @@ const Footer = () => {
             />
           </li>
         </a>
-        <a href="https://twitter.com/_law92">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://twitter.com/_law92"
+        >
           <li>
             <FontAwesomeIcon
               className="footer-sm-icons"
