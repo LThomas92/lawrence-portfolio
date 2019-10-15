@@ -1,0 +1,32 @@
+.footer {
+  flex-shrink: 0; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
+  padding: 20px;
+  display: flex;
+  text-align: center;
+}
+
+.footer-icons {
+  margin: 0 auto;
+  text-decoration: none;
+  list-style: none;
+  flex: 1;
+  margin: 0 auto;
+  @media screen and (max-width: 375px) {
+    font-size: 0.5rem;
+  }
+  @media screen and (max-width: 430px) {
+    font-size: 0.7rem;
+  }
+  @media screen and (max-width: 991px) {
+    font-size: 1.5rem;
+  }
+}
+
+.footer-icons li {
+  display: inline-block;
+  padding: 0.5rem;
+  &:hover {
+    color: darkgrey;
+    cursor: pointer;
+  }
+}

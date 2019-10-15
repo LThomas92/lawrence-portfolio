@@ -1,0 +1,34 @@
+//COLORS
+$color-white: #fff;
+$color-black: #000;
+$color-light-grey: #dcdcdc;
+$color-light-grey-2: #f2f2f2;
+$color-light-grey-3: #faf9f9;
+$color-red: #991f1f;
+
+//UTILITIES
+.medium-margin {
+  margin: 3.5rem;
+}
+
+.u-center-text {
+  text-align: center !important;
+}
+
+.u-margin-bottom-big {
+  margin-bottom: 6rem;
+}
+
+.small-line {
+  border-color: $color-red;
+  width: 7%;
+  margin: 0 auto;
+
+  &--black {
+    border-color: $color-black;
+    width: 12%;
+  }
+  &--xtra {
+    margin-top: 0.5rem;
+  }
+}

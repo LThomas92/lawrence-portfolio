@@ -1,0 +1,47 @@
+/* HEADER */
+.header-container {
+  width: 100%;
+  height: auto;
+  padding-bottom: 1.5rem;
+  background-color: $color-light-grey;
+  text-align: center;
+  font-family: "Judson", serif;
+}
+
+.text-box {
+  margin: 0 auto;
+}
+
+.heading-primary {
+  padding-top: 2rem;
+  margin-bottom: 3rem;
+  @media screen and (max-width: 430px) {
+    padding-top: 0.7rem;
+  }
+
+  &--main {
+    display: block;
+    font-size: 4.5rem;
+    font-weight: 400;
+    @media screen and (max-width: 375px) {
+      font-size: 3rem;
+      padding: 1.5rem;
+    }
+    @media screen and (max-width: 430px) {
+      font-size: 2.7rem;
+      padding: 1rem;
+    }
+  }
+
+  &--sub {
+    display: block;
+    font-size: 2rem;
+    font-weight: 500;
+    @media screen and (max-width: 375px) {
+      font-size: 1.3rem;
+    }
+    @media screen and (max-width: 430px) {
+      font-size: 1.2rem;
+    }
+  }
+}

@@ -1,0 +1,86 @@
+.aboutme-container {
+  width: 100%;
+  display: flex;
+  background-color: $color-light-grey-3;
+  font-family: "Judson", serif;
+  @media screen and (max-width: 320px) {
+    display: block;
+  }
+  @media screen and (max-width: 375px) {
+    display: block;
+  }
+  @media screen and (max-width: 460px) {
+    display: block;
+  }
+  @media screen and (max-width: 736px) {
+    display: block;
+  }
+  @media screen and (max-width: 991px) {
+    display: block;
+  }
+}
+
+.aboutme-text {
+  flex: 0 0 40%;
+  margin: 0 1.5rem;
+  padding: 3.5rem;
+  font-size: 1.5rem;
+  text-align: center;
+  @media screen and (max-width: 320px) {
+    padding: 1rem;
+    font-size: 0.9rem;
+  }
+  @media screen and (max-width: 375px) {
+    padding: 2rem;
+    font-size: 0.9rem;
+  }
+  @media screen and (max-width: 460px) {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+  }
+}
+
+.profile__img {
+  flex: 1;
+  max-width: 100%;
+  box-shadow: 0 0.5rem 1rem rgba($color-black, 0.8);
+  margin-top: 1rem;
+}
+
+.medium-articles-container {
+  text-align: center;
+  font-family: "Judson", serif;
+  h3 {
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+  }
+}
+
+.medium-img {
+  width: 40%;
+  margin: 0 auto;
+  padding: 1.5rem;
+  @media screen and (max-width: 320px) {
+    margin: 0 1.5rem;
+  }
+  @media screen and (max-width: 375px) {
+    margin: 0 1.5rem;
+    width: 70%;
+  }
+  @media screen and (max-width: 460px) {
+    margin: 0 1.5rem;
+    width: 70%;
+  }
+  @media screen and (max-width: 736px) {
+    margin: 0 1.5rem;
+    width: 70%;
+  }
+  @media screen and (max-width: 991px) {
+    margin: 0 1.5rem;
+    width: 70%;
+  }
+  &:hover {
+    transition: 0.4s;
+    transform: scale(0.7);
+  }
+}

@@ -1,0 +1,160 @@
+.project-container {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  font-family: "Judson", serif;
+}
+
+.project-header {
+  letter-spacing: 2px;
+  padding: 1rem;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 1rem;
+  margin: 0 auto;
+
+  @media screen and (max-width: 320px) {
+    display: block;
+  }
+  @media screen and (max-width: 375px) {
+    display: block;
+  }
+  @media screen and (max-width: 460px) {
+    display: block;
+  }
+  @media screen and (max-width: 736px) {
+    display: block;
+  }
+  @media screen and (max-width: 991px) {
+    display: block;
+  }
+}
+
+.columns {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  margin: 0 auto;
+
+  &--svc {
+    margin-top: 1rem;
+    padding: 1rem;
+    p {
+      padding-top: 0.5rem;
+      @media screen and (max-width: 375px) {
+        padding-top: 0.5rem;
+      }
+      @media screen and (max-width: 460px) {
+        padding-top: 0.5rem;
+      }
+      @media screen and (max-width: 736px) {
+        padding-top: 0.5rem;
+      }
+      @media screen and (max-width: 991px) {
+        padding-top: 0.5rem;
+      }
+    }
+    &:hover {
+      transform: translateY(-1.5rem) scale(1.03);
+    }
+    @media screen and (max-width: 375px) {
+      display: block;
+    }
+    @media screen and (max-width: 460px) {
+      display: block;
+    }
+    @media screen and (max-width: 736px) {
+      display: block;
+    }
+    @media screen and (max-width: 991px) {
+      display: block;
+    }
+  }
+}
+
+.photo {
+  max-width: 100%;
+  margin: 1rem auto;
+  box-shadow: 0 0.5rem 1rem rgba($color-black, 0.8);
+}
+
+.project-text {
+  font-family: "Judson", serif;
+  padding: 0 2rem;
+  margin: 4.5rem 0;
+  @media screen and (max-width: 375px) {
+    padding: 0 1rem;
+    font-size: 1.2rem;
+  }
+
+  &__heading {
+    font-weight: 600;
+    font-size: 3rem;
+    text-align: center;
+    padding: 1rem 0;
+    &--2 {
+      font-size: 1.5rem;
+      text-align: center;
+      font-weight: 600;
+      padding: 0.6rem 0;
+    }
+  }
+
+  ul {
+    list-style: none;
+    padding: 0.3rem 0;
+  }
+  li {
+    font-size: 1.5rem;
+    margin: 0;
+    text-align: center;
+  }
+}
+
+.challenge-header {
+  padding: 1rem 2rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.challenge-text {
+  font-size: 1.2rem;
+}
+
+.project-btn {
+  text-decoration: none;
+  color: $color-black;
+  font-weight: 700;
+}
+
+.project-btn-box {
+  text-align: center;
+
+  &__icon {
+    color: $color-black;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
+
+.gh-icon {
+  margin-top: 1rem;
+}
+
+.project-line {
+  width: 30%;
+  margin: 0 auto;
+  border-bottom: 1px solid $color-light-grey;
+  box-shadow: 10px 10px 5px $color-black;
+  -moz-box-shadow: 10px 10px 5px $color-black;
+  -webkit-box-shadow: 10px 10px 5px $color-black;
+  -khtml-box-shadow: 10px 10px 5px $color-black;
+}

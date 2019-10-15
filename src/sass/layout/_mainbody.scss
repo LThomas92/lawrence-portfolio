@@ -1,0 +1,86 @@
+/* MAIN BODY */
+.mainbody-container {
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+  font-family: "Judson", serif;
+  @media screen and (max-width: 375px) {
+    display: block;
+  }
+  @media screen and (max-width: 460px) {
+    display: block;
+  }
+  @media screen and (max-width: 736px) {
+    display: block;
+  }
+  @media screen and (max-width: 991px) {
+    display: block;
+  }
+}
+
+.mainbody-text-container {
+  text-align: center;
+  flex: 0 0 50%;
+  padding: 1.2rem;
+  @media screen and (max-width: 375px) {
+    padding: 0;
+    margin: 0;
+  }
+  @media screen and (max-width: 460px) {
+    padding: 0;
+    margin: 0;
+  }
+  @media screen and (max-width: 736px) {
+    padding: 0;
+    margin: 0;
+  }
+  @media screen and (max-width: 991px) {
+    padding: 0;
+    margin: 0;
+  }
+  p {
+    padding: 1.2rem;
+  }
+}
+
+.mainbody-text--header {
+  font-weight: 700;
+  padding: 0.8rem;
+  text-align: center;
+}
+
+.btn--inverse a {
+  text-decoration: none;
+  color: white;
+}
+
+.icon-box-list {
+  list-style-type: none;
+  text-align: center;
+  flex: 1;
+  padding-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+.icon-list {
+  margin: 0 auto;
+  @media screen and (max-width: 375px) {
+    display: block;
+  }
+  @media screen and (max-width: 460px) {
+    display: block;
+  }
+  @media screen and (max-width: 736px) {
+    padding: 0;
+    margin: 0;
+  }
+  @media screen and (max-width: 991px) {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.icon-box-list li {
+  display: inline-block;
+  padding: 1rem;
+}
