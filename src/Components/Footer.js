@@ -6,12 +6,24 @@ const Footer = () => {
   return (
     <footer className="footer">
       <ul className="footer-icons">
-        <li>
-          <FontAwesomeIcon icon={faGithub} size="3x" />
-        </li>
-        <li>
-          <FontAwesomeIcon icon={faTwitter} size="3x" />
-        </li>
+        <a href="https://www.github.com/LThomas92">
+          <li>
+            <FontAwesomeIcon
+              className="footer-sm-icons"
+              icon={faGithub}
+              size="3x"
+            />
+          </li>
+        </a>
+        <a href="https://twitter.com/_law92">
+          <li>
+            <FontAwesomeIcon
+              className="footer-sm-icons"
+              icon={faTwitter}
+              size="3x"
+            />
+          </li>
+        </a>
       </ul>
     </footer>
   );
