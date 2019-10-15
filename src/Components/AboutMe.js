@@ -11,10 +11,10 @@ const AboutMe = () => {
           Univeristy in 2014 with a B.S in Mass Communications. I have been
           coding since 2017 I began making websites with HTML, CSS and
           Javascript. When I'm not coding you can catch me playing or watching
-          basketball or even drawing digital cartoons. I've always been obesssed
-          with technology and learning something new everyday. I plan to take my
-          learning of web development and translate that into mobile app
-          development. I also love to travel.
+          basketball or possibly drawing digital cartoons. I've always been
+          obsessed with technology and learning something new everyday. I plan
+          to take my learning of web development and translate that into mobile
+          app development.
         </div>
 
         <div className="aboutme-img">
