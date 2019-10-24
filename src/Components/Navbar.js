@@ -26,8 +26,13 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/projects" data-hover="Projects">
-                  Projects
+                <Link to="/projects" data-hover="Web Projects">
+                  Web Projects
+                </Link>
+              </li>
+              <li>
+                <Link to="/email-projects" data-hover="Email Projects">
+                  Email Projects
                 </Link>
               </li>
               <li>

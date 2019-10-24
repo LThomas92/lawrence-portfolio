@@ -17,7 +17,8 @@ const Services = () => {
           <FontAwesomeIcon className="svc-icons" icon={faDesktop} size="2x" />
           <p>
             Are you looking for a modern website layout that is also responsive
-            as well? Using industry best practices. Look no further!
+            as well? Or even a promotional HTML email? Using industry best
+            practices. Look no further!
           </p>
         </div>
 
