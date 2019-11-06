@@ -1,4 +1,5 @@
 import React from "react";
+import logo from '../logo.svg';
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -7,7 +8,7 @@ const Navbar = () => {
       <header className="header">
         <Link to="/">
           <img
-            src={process.env.PUBLIC_URL + "img/LT-logo@2x.png"}
+           src={logo}
             alt="Lawrence Thomas Logo"
             className="logo"
           />

@@ -19,7 +19,7 @@
   color: $color-white;
   grid-column-start: auto;
   grid-row-start: auto;
-  background: url("https://i.imgur.com/reHpr8l.jpg");
+  background: url("../../gallery-img/cartoon-head.jpg");
   background-size: cover;
   background-position: center;
   box-shadow: -2px 2px 10px 0px rgba(#444, 0.4);
@@ -27,31 +27,31 @@
   cursor: pointer;
 
   &:nth-of-type(2n) {
-    background-image: url("https://i.imgur.com/6Fip65F.png");
+    background-image: url("../../gallery-img/dbz-cartoon.png");
   }
 
   &:nth-of-type(3n) {
-    background-image: url("https://i.imgur.com/V0GouFm.png");
+    background-image: url("../../gallery-img/boondocks-img.png");
   }
 
   &:nth-of-type(4n) {
-    background-image: url("https://i.imgur.com/AnDWaVV.png");
+    background-image: url("../../gallery-img/yourtake-logo.png");
   }
 
   &:nth-of-type(5n) {
-    background-image: url("https://i.imgur.com/CjCQNYE.png");
+    background-image: url("../../gallery-img/ngtc-logo.png");
   }
 
   &:nth-of-type(6n) {
-    background-image: url("https://i.imgur.com/VqrZJSB.png");
+    background-image: url("../../gallery-img/wmg-logo.png");
   }
 
   &:nth-of-type(7n) {
-    background-image: url("https://i.imgur.com/yQ4I07O.png");
+    background-image: url("../../gallery-img/mom-logo.png");
   }
 
   &:nth-of-type(8n) {
-    background-image: url("https://i.imgur.com/vfHtFW9.jpg");
+    background-image: url("../../gallery-img/mesmereyes-logo.jpg");
   }
 
   &:after {
