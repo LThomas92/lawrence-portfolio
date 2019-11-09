@@ -1,9 +1,14 @@
 import React from "react";
+import Starbucks1 from "../img/starbucks-html_1.png";
+import Starbucks2 from "../img/starbucks-html_2.GIF";
+import Udemy1 from "../img/udemy-html_1.png";
+import Udemy2 from "../img/udemy-html_2.GIF";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const HTMLEmailsProjects = () => {
-  document.title = "Lawrence Thomas | Projects";
+  document.title = "Email Projects | Lawrence Thomas ";
   return (
     <div className="project-container">
       <h2 className="project-header u-center-text">
@@ -17,12 +22,12 @@ const HTMLEmailsProjects = () => {
               id="phone-img"
               alt="Gmail Preview"
               className="photo"
-              src={process.env.PUBLIC_URL + "img/starbucks-html_1.png"}
+              src={Starbucks1}
             />
             <img
               alt="Responsive HTML Email Example"
               className="photo"
-              src={process.env.PUBLIC_URL + "img/starbucks-html_2.GIF"}
+              src={Starbucks2}
             />
           </div>
         </div>
@@ -62,12 +67,12 @@ const HTMLEmailsProjects = () => {
               id="phone-img"
               alt="Gmail Preview"
               className="photo"
-              src={process.env.PUBLIC_URL + "img/udemy-html_1.png"}
+              src={Udemy1}
             />
             <img
               alt="Responsive HTML Email Example"
               className="photo"
-              src={process.env.PUBLIC_URL + "img/udemy-html_2.GIF"}
+              src={Udemy2}
             />
           </div>
         </div>

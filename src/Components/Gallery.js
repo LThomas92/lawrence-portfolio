@@ -1,7 +1,7 @@
 import React from "react";
 
 const Gallery = () => {
-  document.title = "Lawrence Thomas | Gallery";
+  document.title = "Gallery | Lawrence Thomas ";
   return (
     <React.Fragment>
       <div className="header-box">

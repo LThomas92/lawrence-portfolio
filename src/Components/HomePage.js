@@ -3,7 +3,7 @@ import MainBody from "./MainBody";
 import Services from "./Services";
 
 const HomePage = () => {
-  document.title = "Lawrence Thomas | Home";
+  document.title = "Home | Lawrence Thomas ";
   return (
     <div>
       <MainBody />

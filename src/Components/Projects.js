@@ -1,9 +1,19 @@
 import React from "react";
+import { MoM1 } from '../img/MoM-1.jpg';
+import { MoM2 } from '../img/MoM-2.jpg';
+import { MoM2_1 } from '../img/MoM-2_1.jpg'
+import { MoM2_2 } from '../img/MoM-2.GIF';
+import { DreamHome_1 } from '../img/dream-home-1.png'
+import { DreamHome_2 } from '../img/dream-home-2.GIF'
+import { iStream_1 } from '../img/iStream-1.png';
+import { iStream_2 } from '../img/iStream-2.GIF';
+import { YT1 } from '../img/yt-1.png';
+import { YT2 } from '../img/yt-2.gif';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const Projects = () => {
-  document.title = "Lawrence Thomas | Projects";
+  document.title = "Web Projects | Lawrence Thomas";
   return (
     <div className="project-container">
       <h2 className="project-header u-center-text">Web Development Projects</h2>
@@ -14,12 +24,12 @@ const Projects = () => {
               <img
                 alt="Mind of A Millennial v1"
                 className="photo"
-                src={process.env.PUBLIC_URL + "img/MoM-1.jpg"}
+                src={MoM1}
               />
               <img
                 alt="Mind of A Millennial v1"
                 className="photo"
-                src={process.env.PUBLIC_URL + "img/MoM-2.jpg"}
+                src={MoM2}
               />
             </div>
           </div>
@@ -82,12 +92,12 @@ const Projects = () => {
                 <img
                   alt="Mind of A Millennial 2.0"
                   className="photo"
-                  src={process.env.PUBLIC_URL + "img/MoM-2_1.jpg"}
+                  src={MoM2_1}
                 />
                 <img
                   alt="Mind of A Millennial 2.0"
                   className="photo"
-                  src={process.env.PUBLIC_URL + "img/MoM-2.GIF"}
+                  src={MoM2_2}
                 />
               </div>
             </div>
@@ -154,12 +164,12 @@ const Projects = () => {
                   <img
                     alt="Youtube Clone"
                     className="photo"
-                    src={process.env.PUBLIC_URL + "img/yt-1.png"}
+                    src={YT1}
                   />
                   <img
                     alt="Youtube Clone"
                     className="photo"
-                    src={process.env.PUBLIC_URL + "img/yt-2.gif"}
+                    src={YT2}
                   />
                 </div>
               </div>
@@ -219,12 +229,12 @@ const Projects = () => {
               <img
                 alt="Dream Home"
                 className="photo"
-                src={process.env.PUBLIC_URL + "img/dream-home-1.png"}
+                src={DreamHome_1}
               />
               <img
                 alt="Dream Home"
                 className="photo"
-                src={process.env.PUBLIC_URL + "img/dream-home-2.GIF"}
+                src={DreamHome_2}
               />
             </div>
           </div>
@@ -288,12 +298,12 @@ const Projects = () => {
                   <img
                     alt="iStream"
                     className="photo"
-                    src={process.env.PUBLIC_URL + "img/iStream-1.png"}
+                    src={iStream_1}
                   />
                   <img
                     alt="iStream"
                     className="photo"
-                    src={process.env.PUBLIC_URL + "img/iStream-2.GIF"}
+                    src={iStream_2}
                   />
                 </div>
               </div>

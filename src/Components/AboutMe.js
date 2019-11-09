@@ -1,7 +1,8 @@
 import React from "react";
+import ProfileImg from "../img/profile_img.JPG";
 
 const AboutMe = () => {
-  document.title = "Lawrence Thomas | About Me";
+  document.title = "About Me | Lawrence Thomas ";
   return (
     <section>
       <div className="aboutme-container">
@@ -20,7 +21,7 @@ const AboutMe = () => {
         <div className="aboutme-img">
           <img
             alt="Lawrence Thomas"
-            src={process.env.PUBLIC_URL + "img/profile_img.JPG"}
+            src={ProfileImg}
             className="profile__img"
           />
         </div>
