@@ -33,7 +33,6 @@ const MainBody = () => {
       <div className="columns">
         <div className="icon-box-list">
           <h3 className="mainbody-text--header">Technologies That I Use</h3>
-
           <ul className="icon-list">
             <li>
               <FontAwesomeIcon icon={faHtml5} size="2x" />

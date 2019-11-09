@@ -5,34 +5,30 @@ import { faGithub, faTwitter } from "@fortawesome/free-brands-svg-icons";
 const Footer = () => {
   return (
     <footer className="footer">
-      <ul className="footer-icons">
+      <div className="footer-icons">
         <a
           target="_blank"
           rel="noopener noreferrer"
           href="https://www.github.com/LThomas92"
         >
-          <li>
-            <FontAwesomeIcon
-              className="footer-sm-icons"
-              icon={faGithub}
-              size="3x"
-            />
-          </li>
+          <FontAwesomeIcon
+            className="footer-sm-icons"
+            icon={faGithub}
+            size="3x"
+          />
         </a>
         <a
           target="_blank"
           rel="noopener noreferrer"
           href="https://twitter.com/_law92"
         >
-          <li>
-            <FontAwesomeIcon
-              className="footer-sm-icons"
-              icon={faTwitter}
-              size="3x"
-            />
-          </li>
+          <FontAwesomeIcon
+            className="footer-sm-icons"
+            icon={faTwitter}
+            size="3x"
+          />
         </a>
-      </ul>
+      </div>
     </footer>
   );
 };

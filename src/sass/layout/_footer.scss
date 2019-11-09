@@ -22,15 +22,12 @@
   }
 }
 
-.footer-icons li {
-  display: inline-block;
+.footer-sm-icons {
+  color: $color-black;
+
   padding: 0.5rem;
   &:hover {
     color: darkgrey;
     cursor: pointer;
   }
-}
-
-.footer-sm-icons {
-  color: $color-black;
 }
