@@ -2,7 +2,7 @@ import React from "react";
 import Starbucks1 from "../img/starbucks-html_1.png";
 import Starbucks2 from "../img/starbucks-html_2.GIF";
 import Udemy1 from "../img/udemy-html_1.png";
-import Udemy2 from "../img/udemy-html_2.GIF";
+import Udemy2 from "../img/udemy-html_2.gif";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
