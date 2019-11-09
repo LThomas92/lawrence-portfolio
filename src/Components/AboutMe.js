@@ -1,5 +1,7 @@
 import React from "react";
 import ProfileImg from "../img/profile_img.JPG";
+import MedImg1 from '../img/Medium-Image.jpeg';
+import MedImg2 from '../img/med-image-2.jpeg';
 
 const AboutMe = () => {
   document.title = "About Me | Lawrence Thomas ";
@@ -36,7 +38,7 @@ const AboutMe = () => {
           <img
             className="medium-img"
             alt="Medium Blog"
-            src={process.env.PUBLIC_URL + "/img/Medium-Image.jpeg"}
+            src={MedImg1}
           ></img>
         </a>
         <a
@@ -47,7 +49,7 @@ const AboutMe = () => {
           <img
             className="medium-img"
             alt="Medium Blog"
-            src={process.env.PUBLIC_URL + "/img/med-image-2.jpeg"}
+            src={MedImg2}
           ></img>
         </a>
       </div>
