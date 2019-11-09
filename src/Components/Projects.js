@@ -1,14 +1,14 @@
 import React from "react";
-import { MoM1 } from '../img/MoM-1.jpg';
-import { MoM2 } from '../img/MoM-2.jpg';
-import { MoM2_1 } from '../img/MoM-2_1.jpg'
-import { MoM2_2 } from '../img/MoM-2.GIF';
-import { DreamHome_1 } from '../img/dream-home-1.png'
-import { DreamHome_2 } from '../img/dream-home-2.GIF'
-import { iStream_1 } from '../img/iStream-1.png';
-import { iStream_2 } from '../img/iStream-2.GIF';
-import { YT1 } from '../img/yt-1.png';
-import { YT2 } from '../img/yt-2.gif';
+import MoM1  from '../img/MoM-1.jpg';
+import MoM2  from '../img/MoM-2.jpg';
+import MoM2_1  from '../img/MoM-2_1.jpg'
+import MoM2_2  from '../img/MoM-2.GIF';
+import DreamHome_1  from '../img/dream-home-1.png'
+import DreamHome_2  from '../img/dream-home-2.GIF'
+import iStream_1  from '../img/iStream-1.png';
+import iStream_2  from '../img/iStream-2.GIF';
+import YT1  from '../img/yt-1.png';
+import YT2  from '../img/yt-2.gif';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
