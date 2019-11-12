@@ -6,7 +6,8 @@ import {
   faCss3,
   faNode,
   faReact,
-  faJsSquare
+  faJsSquare,
+  faWordpress
 } from "@fortawesome/free-brands-svg-icons";
 
 const MainBody = () => {
@@ -48,6 +49,9 @@ const MainBody = () => {
             </li>
             <li>
               <FontAwesomeIcon icon={faNode} size="2x" />
+            </li>
+            <li>
+              <FontAwesomeIcon icon={faWordpress} size="2x" />
             </li>
           </ul>
         </div>
