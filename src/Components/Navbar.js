@@ -1,5 +1,5 @@
 import React from "react";
-import logo from '../logo.svg';
+import logo from "../logo.svg";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -7,11 +7,7 @@ const Navbar = () => {
     <div>
       <header className="header">
         <Link to="/">
-          <img
-           src={logo}
-            alt="Lawrence Thomas Logo"
-            className="logo"
-          />
+          <img src={logo} alt="Lawrence Thomas Logo" className="logo" />
         </Link>
         <nav className="user-nav">
           <div className="user-nav__icon-box">
