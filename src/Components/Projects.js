@@ -5,6 +5,8 @@ import Veganease from "../img/veganease-1.png";
 import github from "../img/github.svg";
 import website from "../img/website.svg";
 
+import LazyLoad from "react-lazyload";
+
 const Projects = () => {
   return (
     <React.Fragment>
@@ -14,11 +16,13 @@ const Projects = () => {
         <div className="grid-projects">
           <div className="portfolio-card">
             <div className="portfolio-card-overlay"></div>
-            <img
-              className="portfolio-card-image"
-              src={MoM1}
-              alt="Mind of A Millennial v1"
-            />
+            <LazyLoad height={"100%"}>
+              <img
+                className="portfolio-card-image"
+                src={MoM1}
+                alt="Mind of A Millennial v1"
+              />
+            </LazyLoad>
             <div className="portfolio-card-details fadeIn-bottom">
               <h3 className="portfolio-card-title">Mind of A Millennial v1</h3>
               <p className="portfolio-card-text">
@@ -54,12 +58,13 @@ const Projects = () => {
           </div>
           <div className="portfolio-card">
             <div className="portfolio-card-overlay"></div>
-            <img
-              className="portfolio-card-image"
-              src={MoM2}
-              alt="Mind of A Millennial v2"
-            />
-
+            <LazyLoad height={"100%"}>
+              <img
+                className="portfolio-card-image"
+                src={MoM2}
+                alt="Mind of A Millennial v2"
+              />
+            </LazyLoad>
             <div className="portfolio-card-details fadeIn-bottom">
               <h3 className="portfolio-card-title">Mind of A Millennial v2</h3>
               <p className="portfolio-card-text">
@@ -73,11 +78,13 @@ const Projects = () => {
                   href="https://www.mindofmillennial.com/"
                   rel="noopener noreferrer"
                 >
-                  <img
-                    src={website}
-                    alt="Website logo"
-                    className="portfolio-icon"
-                  />
+                  <LazyLoad height={"100%"}>
+                    <img
+                      src={website}
+                      alt="Website logo"
+                      className="portfolio-icon"
+                    />
+                  </LazyLoad>
                 </a>
                 <a
                   rel="noopener noreferrer"
@@ -95,11 +102,13 @@ const Projects = () => {
           </div>
           <div className="portfolio-card">
             <div className="portfolio-card-overlay"></div>
-            <img
-              className="portfolio-card-image"
-              src={Veganease}
-              alt="Veganease Website"
-            />
+            <LazyLoad height={"100%"}>
+              <img
+                className="portfolio-card-image"
+                src={Veganease}
+                alt="Veganease Website"
+              />
+            </LazyLoad>
             <div className="portfolio-card-details fadeIn-bottom">
               <h3 className="portfolio-card-title">Veganease</h3>
               <p className="portfolio-card-text">

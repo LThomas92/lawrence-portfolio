@@ -34,11 +34,13 @@ class ShowPage extends React.Component {
         <div className="container">
           <div className="post-content">
             <h3 className="post-content__title">{this.state.post.title}</h3>
+
             <img
               className="post-content__image"
               src={this.state.post.image}
               alt="Blog Post"
             />
+
             <em>Published On: {this.state.post.date}</em>
             <p
               className="post-content__text"
