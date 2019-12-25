@@ -1,0 +1,26 @@
+.post-form {
+    text-align: center;
+    padding: 0 2rem;
+    &__label {
+      display: block;
+      padding: 0.5rem 0;
+      font-size: 0.9rem;
+    }
+    &__input {
+      background: none;
+      background-color: white;
+      color: $color-black;
+      font-size: 18px;
+      padding: 10px 10px 10px 5px;
+      display: block;
+      width: 50%;
+      border: none;
+      border-radius: 0;
+      border-bottom: 1px solid $color-black;
+      margin: 1.2rem auto;
+    }
+    &__text {
+      width: 50%;
+      margin: 1rem auto;
+    }
+  }

@@ -1,11 +1,12 @@
 import React from "react";
 import { BrowserRouter, Route } from "react-router-dom";
 import Navbar from "./Components/Navbar";
-import Header from "./Components/Header";
-import Footer from "./Components/Footer";
+
 import Gallery from "./Components/Gallery";
-import Projects from "./Components/Projects";
-import HTMLEmails from "./Components/HTMLEmails";
+import BlogList from "./Components/BlogList";
+import ShowPage from "./Components/ShowPage";
+import NewPost from "./Components/BlogForms/NewPost";
+
 import AboutMe from "./Components/AboutMe";
 import HomePage from "./Components/HomePage";
 
@@ -15,13 +16,12 @@ const App = () => {
   return (
     <BrowserRouter>
       <Navbar />
-      <Header />
       <Route path="/" exact component={HomePage} />
-      <Route path="/projects" exact component={Projects} />
-      <Route path="/email-projects" exact component={HTMLEmails} />
       <Route path="/about" exact component={AboutMe} />
+      <Route path="/blog" exact component={BlogList} />
+      <Route path="/blog/show/:id" exact component={ShowPage} />
+      <Route path="/add" exact component={NewPost} />
       <Route path="/gallery" exact component={Gallery} />
-      <Footer />
     </BrowserRouter>
   );
 };
