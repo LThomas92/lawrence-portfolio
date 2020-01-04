@@ -19,7 +19,7 @@ const MainBody = () => {
             <h3 className="mainbody-text-header">Who Am I?</h3>
 
             <p>
-              I am a 26 Year Old passionate web developer based out of New York.
+              I am a 27 Year Old passionate web developer based out of New York.
               I have been coding since 2017. I love to build websites big or
               small. I am committed to providing the best service to fufill your
               website and creative needs.

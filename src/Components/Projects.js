@@ -119,7 +119,7 @@ const Projects = () => {
               <div className="portfolio-btn-container">
                 <a
                   target="_blank"
-                  href="https://veganease-llc.herokuapp.com/"
+                  href="https://www.veganeasellc.com"
                   rel="noopener noreferrer"
                 >
                   <img

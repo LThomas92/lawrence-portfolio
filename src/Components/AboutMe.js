@@ -1,7 +1,7 @@
 import React from "react";
 import ProfileImg from "../img/profile_img.JPG";
-import MedImg1 from '../img/Medium-Image.jpeg';
-import MedImg2 from '../img/med-image-2.jpeg';
+import MedImg1 from "../img/Medium-Image.jpeg";
+import MedImg2 from "../img/med-image-2.jpeg";
 
 const AboutMe = () => {
   document.title = "About Me | Lawrence Thomas ";
@@ -10,7 +10,7 @@ const AboutMe = () => {
       <div className="aboutme-container">
         <div className="aboutme-text">
           My name is Lawrence Thomas as you can see in the above header. I am a
-          26 Year Old self taught web developer. I graduated from St. John's
+          27 Year Old self taught web developer. I graduated from St. John's
           Univeristy in 2014 with a B.S in Mass Communications. I have been
           coding since 2017 I began making websites with HTML, CSS and
           Javascript. When I'm not coding you can catch me playing or watching
@@ -35,22 +35,14 @@ const AboutMe = () => {
           rel="noopener noreferrer"
           href="https://medium.com/better-programming/how-to-use-custom-slugs-in-your-url-instead-of-ids-on-your-mern-application-75d4e598081a"
         >
-          <img
-            className="medium-img"
-            alt="Medium Blog"
-            src={MedImg1}
-          ></img>
+          <img className="medium-img" alt="Medium Blog" src={MedImg1}></img>
         </a>
         <a
           target="_blank"
           rel="noopener noreferrer"
           href="https://medium.com/better-programming/image-upload-with-cloudinary-mern-f18812d5d023"
         >
-          <img
-            className="medium-img"
-            alt="Medium Blog"
-            src={MedImg2}
-          ></img>
+          <img className="medium-img" alt="Medium Blog" src={MedImg2}></img>
         </a>
       </div>
     </section>
